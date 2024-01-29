@@ -1,0 +1,92 @@
+* {
+    /* border: 1px solid red; */
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    margin-left: 50%;
+}
+
+.head {
+    position: absolute;
+    padding: 75px;
+    font-size: 2em;
+    color: #c7bea7;
+}
+
+.the-words {
+    /* background-color: rgba(59, 59, 59, 0.486);
+    border-radius: 6px; */
+    padding: 5px;
+}
+
+.digits {
+    position: absolute;
+    padding: 75px;
+    font-size: 2em;
+    margin-top: 125px;
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    list-style-type: none;
+    display: flex;
+    padding-bottom: 15px;
+    /* background-color: rgba(59, 59, 59, 0.486);
+    border-radius: 6px; */
+}
+
+a {
+    text-decoration: none;
+    color:#c7bea7;
+}
+
+body {
+    background: black;
+    z-index: -2;
+}
+
+video {
+    height: 100%;
+    width: 100%;
+    margin-top: -7.5%;
+    z-index: -1;
+    position:relative;
+ }
+
+nav {
+    z-index: 1;
+    display: flex;
+    justify-content: ;
+}
+
+.ul1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #35353565;
+    width: 100%;
+  }
+  
+.li1 {
+    float: left;
+  }
+  
+.a1 {
+    display: block;
+    color:#b48400;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 1s;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+.a1:hover {
+    background-color: #000000;
+    color: white;
+    letter-spacing: 1px;
+  }

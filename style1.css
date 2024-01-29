@@ -1,0 +1,76 @@
+* {
+    text-align: center;
+    margin: 0%;
+    /* border: 1px solid red; */
+}
+
+.AboutContainer {
+    padding: 4%;
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    word-spacing: 3px;
+}
+
+h1 {
+    color:#b48400;
+    z-index: 1;
+}
+
+h4 {
+    color:#b48400;
+    z-index: 1;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.PersonalBox {
+    padding: 10px;
+    z-index: 1;
+}
+
+video {
+    z-index: -2;
+    margin-left: -60%;
+    margin-top: -120%;
+    position: absolute;
+}
+
+.personal {
+    padding-bottom: 80px;
+    padding-top: 40px;
+}
+
+.about {
+    background: #35353565;
+    border-radius: 10px;
+    padding: 5%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #35353565;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color:#b48400;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 1s;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #000000;
+    color: white;
+    letter-spacing: 1px;
+  }
+
